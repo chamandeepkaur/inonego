@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0B3EA8BA1FA7CAA300D4BA63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3EA8B91FA7CAA300D4BA63 /* AppDelegate.swift */; };
-		0B3EA8BC1FA7CAA300D4BA63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3EA8BB1FA7CAA300D4BA63 /* ViewController.swift */; };
+		0B3EA8BC1FA7CAA300D4BA63 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3EA8BB1FA7CAA300D4BA63 /* ChecklistViewController.swift */; };
 		0B3EA8BF1FA7CAA300D4BA63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3EA8BD1FA7CAA300D4BA63 /* Main.storyboard */; };
 		0B3EA8C11FA7CAA300D4BA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3EA8C01FA7CAA300D4BA63 /* Assets.xcassets */; };
 		0B3EA8C41FA7CAA300D4BA63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3EA8C21FA7CAA300D4BA63 /* LaunchScreen.storyboard */; };
 		0B3EA8CF1FA7CAA300D4BA63 /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3EA8CE1FA7CAA300D4BA63 /* TodoTests.swift */; };
 		0B3EA8DA1FA7CAA400D4BA63 /* TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3EA8D91FA7CAA400D4BA63 /* TodoUITests.swift */; };
+		0B95DABC1FAA2ECC00E28CBA /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B95DABB1FAA2ECC00E28CBA /* AddItemViewController.swift */; };
+		0BBE94891FA8DD7F00D0A1E0 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE94881FA8DD7F00D0A1E0 /* ChecklistItem.swift */; };
+		0D3394FA1FB809F300B5455E /* mapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3394F91FB809F300B5455E /* mapViewViewController.swift */; };
+		0D3394FC1FB824B100B5455E /* GetPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3394FB1FB824B100B5455E /* GetPriceViewController.swift */; };
+		0DF2562D1FBA087E003B2AED /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF2562C1FBA087E003B2AED /* EndViewController.swift */; };
+		8A2E7EFD1FB2C9E60053FE83 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E7EFC1FB2C9E60053FE83 /* Car.swift */; };
+		9BF5EE591FB4F1F000A90B03 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5EE581FB4F1F000A90B03 /* SignupViewController.swift */; };
+		9BF5EE5B1FB4FC2800A90B03 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5EE5A1FB4FC2800A90B03 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		0B3EA8B61FA7CAA300D4BA63 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3EA8B91FA7CAA300D4BA63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0B3EA8BB1FA7CAA300D4BA63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B3EA8BB1FA7CAA300D4BA63 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		0B3EA8BE1FA7CAA300D4BA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B3EA8C01FA7CAA300D4BA63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B3EA8C31FA7CAA300D4BA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		0B3EA8D51FA7CAA400D4BA63 /* TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3EA8D91FA7CAA400D4BA63 /* TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITests.swift; sourceTree = "<group>"; };
 		0B3EA8DB1FA7CAA400D4BA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B95DABB1FAA2ECC00E28CBA /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		0BBE94881FA8DD7F00D0A1E0 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		0D3394F91FB809F300B5455E /* mapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewViewController.swift; sourceTree = "<group>"; };
+		0D3394FB1FB824B100B5455E /* GetPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPriceViewController.swift; sourceTree = "<group>"; };
+		0DF2562C1FBA087E003B2AED /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		8A2E7EFC1FB2C9E60053FE83 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9BF5EE581FB4F1F000A90B03 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		9BF5EE5A1FB4FC2800A90B03 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +114,19 @@
 			isa = PBXGroup;
 			children = (
 				0B3EA8B91FA7CAA300D4BA63 /* AppDelegate.swift */,
-				0B3EA8BB1FA7CAA300D4BA63 /* ViewController.swift */,
+				0B3EA8BB1FA7CAA300D4BA63 /* ChecklistViewController.swift */,
+				0D3394FB1FB824B100B5455E /* GetPriceViewController.swift */,
+				0BBE94881FA8DD7F00D0A1E0 /* ChecklistItem.swift */,
 				0B3EA8BD1FA7CAA300D4BA63 /* Main.storyboard */,
+				0DF2562C1FBA087E003B2AED /* EndViewController.swift */,
+				0D3394F91FB809F300B5455E /* mapViewViewController.swift */,
+				9BF5EE5A1FB4FC2800A90B03 /* LoginViewController.swift */,
+				9BF5EE581FB4F1F000A90B03 /* SignupViewController.swift */,
+				0B95DABB1FAA2ECC00E28CBA /* AddItemViewController.swift */,
 				0B3EA8C01FA7CAA300D4BA63 /* Assets.xcassets */,
 				0B3EA8C21FA7CAA300D4BA63 /* LaunchScreen.storyboard */,
 				0B3EA8C51FA7CAA300D4BA63 /* Info.plist */,
+				8A2E7EFC1FB2C9E60053FE83 /* Car.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -259,7 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B3EA8BC1FA7CAA300D4BA63 /* ViewController.swift in Sources */,
+				0B3EA8BC1FA7CAA300D4BA63 /* ChecklistViewController.swift in Sources */,
+				9BF5EE591FB4F1F000A90B03 /* SignupViewController.swift in Sources */,
+				0B95DABC1FAA2ECC00E28CBA /* AddItemViewController.swift in Sources */,
+				8A2E7EFD1FB2C9E60053FE83 /* Car.swift in Sources */,
+				9BF5EE5B1FB4FC2800A90B03 /* LoginViewController.swift in Sources */,
+				0BBE94891FA8DD7F00D0A1E0 /* ChecklistItem.swift in Sources */,
+				0DF2562D1FBA087E003B2AED /* EndViewController.swift in Sources */,
+				0D3394FC1FB824B100B5455E /* GetPriceViewController.swift in Sources */,
+				0D3394FA1FB809F300B5455E /* mapViewViewController.swift in Sources */,
 				0B3EA8BA1FA7CAA300D4BA63 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

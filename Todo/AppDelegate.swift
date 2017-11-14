@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Todo
 //
-//  Created by Aman Bhullar on 2017-10-30.
+//  Created by Chamandeep on 2017-10-30.
 //  Copyright © 2017 Aman Bhullar. All rights reserved.
 //
 
